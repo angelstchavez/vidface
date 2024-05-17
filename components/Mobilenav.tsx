@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/sheet";
 import { FaBars, FaVideo } from "react-icons/fa";
 import Link from "next/link";
-import { SidebarLinks } from "@/constants";
+import { sidebarLinks } from "@/constants";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 
@@ -34,7 +34,7 @@ const Mobilenav = () => {
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
               <section className="flex h-full flex-col gap-6 pt-16 text-white">
-                {SidebarLinks.map((link) => {
+                {sidebarLinks.map((link) => {
                   const isActive =
                     pathname === link.route;
                   const Icon = link.Icon;

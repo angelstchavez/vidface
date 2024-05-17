@@ -6,7 +6,7 @@ import {
   FaUser,
 } from "react-icons/fa";
 
-export const SidebarLinks = [
+export const sidebarLinks = [
   {
     label: "Inicio",
     Icon: FaHome,
@@ -32,4 +32,12 @@ export const SidebarLinks = [
     Icon: FaUser,
     route: "/personal-room",
   },
+];
+
+export const avatarImages = [
+  '/images/avatar-1.jpeg',
+  '/images/avatar-2.jpeg',
+  '/images/avatar-3.png',
+  '/images/avatar-4.png',
+  '/images/avatar-5.png',
 ];

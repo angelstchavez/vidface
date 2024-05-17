@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Vidface",
-  description: "By Angel Chavez",
+  description: "A workspace for your team, powered by Stream Chat and Clerk.",
 };
 
 export default function RootLayout({
@@ -22,10 +22,11 @@ export default function RootLayout({
           variables: {
             colorText: "#fff",
             colorPrimary: "#fff",
-            colorNeutral: "#FFF",
+            colorNeutral: "#000",
             colorTextSecondary: "#FFF",
             colorBackground: "#151515",
-            colorInputText: "#fff",
+            colorInputText: "#000",
+            colorInputBackground: "#000"
           },
         }}
       >
