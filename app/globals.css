@@ -2,6 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+.glassmorphism2 {
+  background: rgba(18, 17, 17, 0.25);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.bg-dark-1-gradient {
+  background: linear-gradient(to bottom, #121212, #090909);
+}
+
+.bg-vid-1-gradient {
+  background: linear-gradient(to bottom, #0f56be, #0a3c84);
+}
+
+.bg-vid-2-gradient {
+  background: linear-gradient(to bottom, #1b5c84, #0f354b);
+}
+
+.bg-vid-3-gradient {
+  background: linear-gradient(to bottom, #11374f, #0b2637);
+}
+
+.bg-vid-4-gradient {
+  background: linear-gradient(to bottom, #2a5668, #224555);
+}
+
 @layer utilities {
   .flex-center {
     @apply flex justify-center items-center;

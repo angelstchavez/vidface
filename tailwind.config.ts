@@ -23,6 +23,12 @@ const config = {
           1: "#121212",
           2: "#202020",
         },
+        vid: {
+          1: "#0f56be",
+          2: "#1B5C84",
+          3: "#11374F",
+          4: "#2A5668",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
