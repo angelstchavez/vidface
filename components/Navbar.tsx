@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { FaVideo } from "react-icons/fa";
 import Mobilenav from "./Mobilenav";
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 
 const Navbar = () => {
   return (
@@ -13,6 +14,12 @@ const Navbar = () => {
         </p>
       </Link>
       <div className="flex-between gap-5">
+        <SignedIn>
+          <UserButton></UserButton>
+        </SignedIn>
+        <SignedOut>
+          <SignInButton></SignInButton>
+        </SignedOut>
         <Mobilenav></Mobilenav>
       </div>
     </nav>

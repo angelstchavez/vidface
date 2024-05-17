@@ -21,7 +21,7 @@ const config = {
       colors: {
         dark: {
           1: "#121212",
-          2: "#252525",
+          2: "#202020",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
